@@ -17,7 +17,8 @@ class Product extends DataObject {
 	);
 	static $searchable_fields = array(
 		'Title',
-		'Price'
+		'Price',
+		'CategoryID'
 	);
 	
 	static $admin_table_field = 'TableField';
