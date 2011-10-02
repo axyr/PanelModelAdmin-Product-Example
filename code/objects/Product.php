@@ -18,7 +18,7 @@ class Product extends DataObject {
 	static $searchable_fields = array(
 		'Title',
 		'Price',
-		'CategoryID'
+		'CategoryID' => 'ExactMatchFilter'
 	);
 	
 	static $admin_table_field = 'TableField';
